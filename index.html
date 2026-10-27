@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101914">
+  <meta name="description" content="Denis Marino's quantitative finance portfolio. Explore research in neural SDE calibration, stochastic volatility and statistical learning, alongside education and professional experience.">
+  <title>Denis Marino | Quantitative Finance & Data Science</title>
+  <link rel="canonical" href="https://denistar490-png.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Denis Marino | Quantitative Finance & Data Science">
+  <meta property="og:description" content="Research in neural SDE calibration, stochastic volatility and statistical learning. Explore Denis Marino's projects, education and career highlights.">
+  <meta property="og:url" content="https://denistar490-png.github.io/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/thesis-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Denis Marino, home">dm<span>.</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#work">Selected work</a><a href="#background">Background</a><a href="#about">About</a>
+    </nav>
+    <a class="header-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#work">Selected work</a><a href="#background">Background</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Denis Marino · London, UK</p>
+        <h1 id="hero-title">Quantitative finance.<br><em>Curiosity, modelled.</em></h1>
+        <p class="hero-intro">I explore the mathematics behind markets through derivatives modelling, statistical learning and financial data science.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="assets/Denis-Marino-CV.pdf" download="Denis-Marino-CV.pdf">Download CV <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-disciplines">PYTHON <span>/</span> R <span>/</span> STOCHASTIC MODELLING</p>
+      </div>
+      <figure class="hero-figure">
+        <div class="figure-topline"><span>RESEARCH NOTEBOOK</span><span>FIG. 01</span></div>
+        <img class="surface-art" src="assets/volatility-surface.svg" alt="Heston target implied-volatility surface from the thesis reference data, spanning seven maturities and 29 moneyness levels.">
+        <figcaption><div><span class="tiny-label">THE SHAPE OF UNCERTAINTY</span><p>A volatility surface, one point at a time.</p></div><a href="#work" aria-label="Explore the volatility surface research"><span aria-hidden="true">↙</span></a></figcaption>
+        <div class="figure-note"><span class="legend-line"></span> Heston target · Thesis reference data</div>
+      </figure>
+    </section>
+
+    <div class="credentials section-wrap" aria-label="Academic and research highlights">
+      <div><span class="tiny-label">BIRKBECK, UNIVERSITY OF LONDON</span><p>Distinction <span class="muted">/ 85% average</span></p></div>
+      <div><span class="tiny-label">UNIVERSITÀ DI MILANO-BICOCCA</span><p>110/110 e lode</p></div>
+      <div><span class="tiny-label">AT THE INTERSECTION OF</span><p>Finance <span class="accent">×</span> Mathematics <span class="accent">×</span> Code</p></div>
+    </div>
+
+    <section class="work-section section-wrap" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Questions into <em>research.</em></h2></div><p>From classical volatility models to neural methods.<br>Three projects, with the code behind the conclusions.</p></div>
+      <article class="featured-project">
+        <div class="featured-visual"><div class="project-visual-label"><span>MSc DISSERTATION</span><span>01 / 03</span></div><img src="assets/volatility-surface.svg" alt="Three-dimensional implied-volatility surface from the thesis Heston reference targets" loading="lazy"><div class="visual-bottom"><span>29 MONEYNESS LEVELS</span><span>7 MATURITIES</span></div></div>
+        <div class="featured-copy"><p class="eyebrow accent">FEATURED RESEARCH · PYTHON / PYTORCH</p><h3>Neural SDE Calibration for Volatility Surface Modelling</h3><p>Bringing neural leverage functions to stochastic volatility. A thesis exploring calibration against Heston targets, with SABR and Local Volatility benchmarks.</p><div class="tags"><span>Neural SDEs</span><span>Monte Carlo</span><span>Volatility surfaces</span></div><button class="project-open text-link" data-project="thesis">Explore the research <span aria-hidden="true">↗</span></button></div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-chart heston-chart"><div class="project-visual-label"><span>STOCHASTIC VOLATILITY</span><span>02 / 03</span></div><svg viewBox="0 0 520 230" role="img" aria-labelledby="smile-title"><title id="smile-title">Illustration of market and model volatility smiles</title><g class="plot-grid"><path d="M45 45H485M45 90H485M45 135H485M45 180H485M90 25V195M190 25V195M290 25V195M390 25V195M485 25V195"/></g><path class="smile-market" d="M55 43C115 88 161 139 223 157S349 175 475 131"/><path class="smile-model" d="M55 54C119 96 167 144 226 159S350 169 475 139"/><g class="market-points"><circle cx="55" cy="43" r="3"/><circle cx="99" cy="79" r="3"/><circle cx="143" cy="117" r="3"/><circle cx="187" cy="143" r="3"/><circle cx="231" cy="159" r="3"/><circle cx="275" cy="167" r="3"/><circle cx="319" cy="169" r="3"/><circle cx="363" cy="162" r="3"/><circle cx="407" cy="151" r="3"/><circle cx="451" cy="139" r="3"/></g><text x="45" y="220">STRIKE</text><text x="45" y="18">IMPLIED VOLATILITY</text><text x="375" y="220">ILLUSTRATIVE SMILE</text></svg><div class="chart-legend"><span><i class="legend-line"></i> Market</span><span><i class="legend-line dashed"></i> Heston model</span></div></div>
+          <div class="project-card-copy"><div class="project-meta"><span>PYTHON · DERIVATIVES</span><span class="metric">4.78% <small>IV RMSE</small></span></div><h3>Calibrating Heston to S&P 500 options</h3><p>From characteristic functions to global optimisation: reconstructing the market's volatility smile and surface.</p><button class="project-open text-link" data-project="heston">View project <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-chart ml-chart"><div class="project-visual-label"><span>STATISTICAL LEARNING</span><span>03 / 03</span></div><div class="accuracy-plot" role="img" aria-label="SVC test accuracy 55.56 percent, neural network test accuracy 51.59 percent. Dataset majority baseline 51.84 percent."><div><span>RBF SVC</span><div class="bar-track"><div class="accuracy-bar svc"></div></div><strong>55.56%</strong></div><div><span>Neural network</span><div class="bar-track"><div class="accuracy-bar nn"></div></div><strong>51.59%</strong></div><div><span>Dataset baseline</span><div class="bar-track"><div class="accuracy-bar baseline"></div></div><strong>51.84%</strong></div></div><div class="chart-legend">S&P 500 · Smarket dataset · Academic classification study</div></div>
+          <div class="project-card-copy"><div class="project-meta"><span>R · MACHINE LEARNING</span><span class="metric">55.56% <small>SVC TEST ACCURACY</small></span></div><h3>Can we predict market direction?</h3><p>Comparing an RBF support vector classifier and a neural network, with careful validation and an honest look at predictive limits.</p><button class="project-open text-link" data-project="learning">View project <span aria-hidden="true">↗</span></button></div>
+        </article>
+      </div>
+      <a class="github-line" href="https://github.com/denistar490-png" target="_blank" rel="noopener noreferrer"><span>Explore the code, methods and full reports</span><span>Find me on GitHub <span aria-hidden="true">↗</span></span></a>
+    </section>
+
+    <section class="background-section" id="background" aria-labelledby="background-title"><div class="section-wrap">
+      <div class="section-heading"><div><p class="eyebrow">02 / BACKGROUND</p><h2 id="background-title">A foundation in <em>finance.</em><br>A focus on the quantitative.</h2></div><a class="text-link" href="assets/Denis-Marino-CV.pdf" download="Denis-Marino-CV.pdf">Download full CV <span aria-hidden="true">↗</span></a></div>
+      <div class="background-grid">
+        <div class="education"><h3 class="column-title"><span class="small-square"></span> Education</h3>
+          <article class="timeline-item"><p class="date">SEP 2025 — OCT 2026</p><h4>Birkbeck, University of London</h4><p class="role">MSc Quantitative Finance with Data Science</p><p class="item-note">Double degree programme</p><div class="grade">Distinction <span>· Weighted average: 85%</span></div><p class="coursework">Market & Credit Risk Management · Statistical Learning & Analysis · Financial Data Science with Python</p></article>
+          <article class="timeline-item"><p class="date">SEP 2024 — OCT 2026</p><h4>Università degli Studi di Milano-Bicocca</h4><p class="role">MSc Economics and Finance</p><div class="grade">110/110 e lode <span>· Weighted average: 29.15/30</span></div><p class="coursework">Derivatives · Portfolio Theory · Inference · Investment Strategies · Dynamic Asset Pricing</p><p class="dissertation">Dissertation: Neural SDE Calibration for Volatility Surface Modelling</p></article>
+          <article class="timeline-item"><p class="date">OCT 2020 — JUL 2024</p><h4>Università degli Studi del Piemonte Orientale</h4><p class="role">BSc Business Administration</p><p class="item-note">Banking and Finance specialisation</p><p class="coursework">Advanced course: Excel for Financial and Business Problem Solving</p></article>
+        </div>
+        <div class="experience"><h3 class="column-title"><span class="small-square"></span> Experience</h3>
+          <article class="timeline-item"><p class="date">OCT 2023 — OCT 2024 · NOVARA</p><h4>JEUPO Consulting</h4><p class="role">Analyst</p><p class="experience-copy">Developed research reports and comparative findings, presenting data-driven insights.</p></article>
+          <article class="timeline-item"><p class="date">MAR 2023 — MAR 2024 · REMOTE</p><h4>Scientifica Venture Capital</h4><p class="role">AdVenture Program</p><p class="experience-copy">Evaluated potential investment opportunities in early-stage startups and built a professional network.</p></article>
+          <aside class="certification-note"><span class="tiny-label">ADDITIONAL QUALIFICATIONS</span><p>3 Bloomberg certifications<br>ICDL certification</p><span class="muted">Alongside a practical foundation in financial analysis, research and data.</span></aside>
+        </div>
+      </div>
+    </div></section>
+
+    <section class="about-section section-wrap" id="about" aria-labelledby="about-title">
+      <div class="about-intro"><p class="eyebrow">03 / THE PERSON BEHIND THE MODELS</p><h2 id="about-title">Analytical by training.<br><em>Curious by nature.</em></h2><p>I'm Denis, a double MSc candidate with a background spanning quantitative finance, economics and data science in London and Milan.</p><p>My projects follow a common thread: understanding how models behave, testing them against data, and being clear about what the results can—and cannot—tell us.</p><p class="personal-note">Away from the screen: trading, chess and gym training.</p></div>
+      <div class="skills-block"><div class="skill-group"><h3>Tools of the trade</h3><div class="skill-chips"><span>Python</span><span>R</span><span>MATLAB</span><span>Excel</span><span>PowerPoint</span><span>LaTeX</span></div></div><div class="skill-group"><h3>Research interests</h3><p>Option pricing · Stochastic volatility · Neural SDEs · Statistical learning · Market & credit risk</p></div><div class="skill-group languages"><h3>Languages</h3><dl><div><dt>Italian</dt><dd>Native</dd></div><div><dt>English</dt><dd>Fluent</dd></div><div><dt>Spanish</dt><dd>Beginner</dd></div></dl></div></div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title"><div class="contact-panel"><div><p class="eyebrow">04 / GET IN TOUCH</p><h2 id="contact-title">Let's start a<br><em>conversation.</em></h2><p>For opportunities in quantitative finance, research<br class="desktop-break"> or a conversation about the work.</p></div><div class="contact-actions"><a class="email-link" href="mailto:denismarino000@gmail.com">denismarino000@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/denis-marino-000dm/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/denistar490-png" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><button id="copy-email">Copy email <span aria-hidden="true">⧉</span></button></div><span id="copy-status" class="copy-status" role="status" aria-live="polite"></span></div></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="wordmark" href="#home" aria-label="Back to top">dm<span>.</span></a><p>© <span id="year">2026</span> Denis Marino</p><p>London · Quantitative Finance & Data Science</p><a href="#home">Back to top ↑</a></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="tiny-label" id="dialog-kicker"></span><button class="dialog-close" aria-label="Close project details">Close <span aria-hidden="true">×</span></button></div><div class="dialog-body" id="dialog-content"></div></dialog>
+  <noscript><style>.project-open,.menu-toggle,#copy-email{display:none}.mobile-nav[hidden]{display:block;position:static}</style><p class="noscript-note section-wrap">Project source code and reports are available on <a href="https://github.com/denistar490-png">GitHub</a>. Enable JavaScript to explore the interactive project details.</p></noscript>
+</body>
+</html>
